@@ -9,7 +9,8 @@ defmodule NewJason do
   ## Examples
 
       iex> NewJason.correct_message()
-      "Package name already exists"
+      "Package name does not already exist. Published successfully."
+
 
   """
   def correct_message do
